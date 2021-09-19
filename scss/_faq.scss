@@ -1,0 +1,23 @@
+.accordion-button:focus {
+  border-color: #9926f0 !important;
+  box-shadow: 0 0 0 0.25rem #c7b6d4 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #9926f0 !important;
+  background-color: #d2b3ec !important;
+  box-shadow: 0 0 0 0.25rem #ca9cee;
+}
+.accordion-item {
+  .accordion-button {
+    padding: 1.5rem 1.5rem;
+  }
+}
+
+.btn-outline-primary {
+  color: #9926f0 !important;
+  border-color: #9926f0 !important;
+}
+.btn-outline-primary:hover {
+  background: #9926f0 !important;
+  color: #fff !important;
+}
